@@ -25,7 +25,7 @@ url                      : "https://threeplef.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "threeplef/threeplef.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "assets/images/profile/cloud.png"
 masthead_title           : "기록하는 개발자 Blog"
 # breadcrumbs            : true
 words_per_minute         : 200
@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "민하늘"
-  avatar           : "assets/images/profile/cloud.png"
+  avatar           : "assets/images/profile/me.png"
   bio              : "꾸준히 공부하는 개발자입니다."
   location         : "Republic of Korea, Seoul"
   email            : "onlynforever@gmail.com"
