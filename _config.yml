@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "기록하는 개발자"
+title                    : "노래하는 "
 title_separator          : "&#124;"
 subtitle                 : "Version 1.0"
 name                     : "민하늘"
@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "threeplef/threeplef.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/profile/cloud.png"
-masthead_title           : "기록하는 개발자 Blog"
+masthead_title           : "luneah 개발 일기"
 # breadcrumbs            : true
 words_per_minute         : 200
 comments:
@@ -102,7 +102,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "민하늘"
+  name             : "luneah"
   avatar           : "assets/images/profile/me.png"
   bio              : "꾸준히 공부하는 개발자입니다."
   location         : "Republic of Korea, Seoul"
