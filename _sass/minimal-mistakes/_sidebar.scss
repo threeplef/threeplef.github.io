@@ -8,6 +8,7 @@
 
 .sidebar {
   @include clearfix();
+  font-family: $omyu_pretty;
   // @include breakpoint(max-width $large) {
   //   /* fix z-index order of follow links */
   //   position: relative;
@@ -216,7 +217,7 @@
 
     &:before {
       @supports (pointer-events: none) {
-        content: '';
+        content: "";
         position: fixed;
         top: 0;
         left: 0;
@@ -350,4 +351,3 @@
     margin-right: initial;
   }
 }
-
