@@ -175,7 +175,7 @@
 .sidebar .author__name {
   font-family: $cute;
   font-size: $type-size-4;
-  color:#FFF;
+  color: #fff;
 }
 
 .author__bio {
@@ -226,7 +226,7 @@
 
     &:before {
       @supports (pointer-events: none) {
-        content: '';
+        content: "";
         position: fixed;
         top: 0;
         left: 0;
@@ -361,4 +361,3 @@
     margin-right: initial;
   }
 }
-
