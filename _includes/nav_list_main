@@ -16,6 +16,7 @@
                 {% endif %}
             {% endfor %}
         </ul>
+
         <span class="nav__sub-title">Spring</span>
         <ul>
             {% for category in site.categories %}
@@ -24,6 +25,7 @@
                 {% endif %}
             {% endfor %}
         </ul>
+
         <span class="nav__sub-title">DB</span>
             <ul>
                 {% for category in site.categories %}
@@ -32,7 +34,8 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <span class="nav__sub-title">Coding Test</span>
+
+        <span class="nav__sub-title">Coding Test</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm" %}
@@ -63,13 +66,20 @@
             </ul>
 
         <span class="nav__sub-title">etc</span>
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "CS" %}
-                    <li><a href="/categories/cs" class="">Computer Science ({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "CS" %}
+                        <li><a href="/categories/cs" class="">Computer Science ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "EIP" %}
+                        <li><a href="/categories/eip" class="">정보처리기사 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Design Pattern" %}
@@ -86,8 +96,8 @@
             </ul>
     </li>
     <li>	
-            <br>      
-            <!-- <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fansohxxn.github.io&count_bg=%23FFCC35&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false"> -->
+        <br>      
+        <!-- <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fansohxxn.github.io&count_bg=%23FFCC35&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false"> -->
     </li>
   </ul>
 </nav>
